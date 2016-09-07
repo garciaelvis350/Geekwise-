@@ -1,0 +1,14 @@
+main{background-color: red;}
+main::after {content"";
+display: block;
+clear:both;}
+
+div {width: 100px; height: 100px; float: left; }
+div:nth-of-type(1){background-color: rgb(30, 254, 208);}
+div:nth-of-type(2){background-color: rgb(126, 251, 57);}
+div:nth-of-type(3){background-color:rgb(19, 100, 156) ;}
+div:nth-of-type(4){background-color:rgb(230, 157, 108);}
+div:nth-of-type(5){background-color: rgb(100, 38, 149);}
+footer:nth-of-type(6){position: fixed; bottom: 0;
+}
+header ul li {display:inblock; background-color: purple;}
