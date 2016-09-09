@@ -1,0 +1,28 @@
+body {
+background-image: url(../img/background.jpg);
+ width:auto;
+  height:90px;
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+ul li{
+  margin: 0;
+  display: inline-block;
+  color: hsla(0, 0%, 0%, .75);
+}
+
+
+h1 a{
+  text-decoration:none;
+  color: white;
+  width:100px;
+  height:100px;
+}
+
+h1 span {
+  color: hsl(193, 69%, 62%);
+}
+ul {
+  float: right;
+}
