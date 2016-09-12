@@ -1,0 +1,30 @@
+nav img {
+  width: 45px;
+  height: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(231, 105, 165);
+}
+nav li {
+  display: inline-block;
+}
+section:nth-of-type(1) {
+  display: flex;
+}
+article {
+  display: flex;
+}
+article > div {
+  display: flex;
+}
+aside{
+  background-color: hsl(289, 88%, 42%);
+}
+section:nth-of-type(2) {
+  display: flex;
+}
+section:nth-of-type(2) {
+  width: 100%;
+}
