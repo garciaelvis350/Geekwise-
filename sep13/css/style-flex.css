@@ -1,0 +1,30 @@
+p {
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start ;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+a:nth-of-type(odd) {
+  align-self: flex-end;
+}
+
+p{
+  height: 500px;
+  background-color: hsl(253, 100%, 67%);
+}
+a {
+  display: inline-block;
+  width: 50px;
+  line-height: 50px;
+  background-color: hsl(146, 100%, 75%);
+  border-radius: 100%;
+  text-align: center;
+  text-decoration: none;
+  color:hsl(249, 24%, 100%);
+  font-size: 24px;
+}
+a:nth-of-type(2){
+  order: 2;
+}
