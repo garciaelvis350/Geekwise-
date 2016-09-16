@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(131, 94%, 69%);
+  margin: 0;
+
+}
+nav {
+  background-color: hsl(190, 67%, 50%);
+}
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+ul li {
+  display: flex;
+   justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+td {
+  width:75px;
+  height:75px;
+  border: 1px solid black;
+
+}
+table {
+  background-color: hsl(180, 100%, 99%);
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 500px;
+}
