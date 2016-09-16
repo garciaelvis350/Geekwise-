@@ -1,0 +1,35 @@
+
+div:nth-of-type(1){
+  color: hsl(282, 43%, 62%);
+   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+
+}
+img {
+  height: 300px;
+  width: 300px;
+}
+div.help{
+flex-direction: column;
+width:100px;
+}
+div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+p {
+  color: hsl(282, 43%, 62%);
+  text-align: center;
+
+}
+h1 {
+  color: hsl(282, 43%, 62%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
