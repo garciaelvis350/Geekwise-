@@ -21,6 +21,7 @@ div:nth-of-type(2) {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-flow: row wrap;
 }
 p {
   color: hsl(282, 43%, 62%);
