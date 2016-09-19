@@ -1,0 +1,54 @@
+body {
+  background-color: hsl(183, 96%, 51%);
+  margin: 0;
+  font-family: sans-serif;
+}
+div.content {
+  width: 50%;
+  margin: 100px auto;
+
+}
+section#contact .content {
+  text-align: center;
+}
+address{
+  margin-bottom: 40px;
+}
+address a{
+  display:block;
+  text-decoration: none;
+}
+form div {
+  display: flex;
+}
+form input [type="text"], form input [type="email"]{
+flex:1;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+}
+form textarea {
+  flex:1;
+  max-width: 99%;
+  min-width: 99%;
+  max-height: 300px;
+}
+form input[type="text"], form input[type="email"],
+form textarea {
+  margin-bottom: 10px;
+  background-color: hsl(268, 85%, 86%);
+  padding: 5px;
+  border: none;
+
+}
+
+form input[type="submit"]{
+  justify-content: flex-start;
+  align-self: flex-end;
+  background-color: rgb(122, 38, 217);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+}
