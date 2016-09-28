@@ -1,0 +1,128 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  color: white;
+  margin: 0;
+  background-image: url(../img/banner.jpg);
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+a {
+  color: #4dac71;
+  text-decoration: underline;
+}
+header h3 {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-around;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+header ul li{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  order: 1;
+}
+div.nightmare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h3.sparta {
+  text-align: center;
+}
+button.screaming_eagles {
+  color: white;
+  border-color: hsl(0, 0%, 100%);
+  background-color: transparent;
+  padding: 17px;
+  width: 17%;
+  font-size: 20px;
+  border: 1px white solid;
+}
+section.primovictoria {
+  background-color: hsl(135, 67%, 33%);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 10px 10px;
+}
+section.primovictoria::before {
+  content: "";
+  position: absolute;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
+}
+section.primovictoria::after {
+  content: "";
+  position: relative;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
+}
+.hill_3234 {
+  text-align: center;
+  flex-direction: column;
+}
+p.ghost_division {
+  padding: 25px;
+  width: 75%;
+}
+div.fb{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+div.sabaton {
+  background-color: hsl(138, 55%, 37%);
+}
+.fa {
+  font-size: 90px;
+  border: 1px white solid;
+  border-radius: 100%;
+  padding: 20px;
+}
+section.uprising {
+  margin: 0;
+}
+div.stalingrad {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+hr.night_witches {
+  width: 86.5%;
+  padding: 1px;
+}
+div.flexed {
+  display: flex;
+  padding: 0 100px;
+}
+div.panzerkampf {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     padding: 5px;
+}
+div.the_lost_battalion {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+button.rise_of_evil {
+align-content: center;
+}
