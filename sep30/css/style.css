@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:500';
+body{
+  margin: 0;
+  font-family: roboto;
+}
+header{
+  background-color: black;
+  background-image: url(../img/home-slider-1-slide-2.jpg);
+  background-size: cover;
+  height: 1290px;
+  width: auto;
+}
+span{ display: flex;
+  justify-content: center;
+  font-size:500px;
+  color: white;
+}
+img {
+  height:75px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+    font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+li {
+  color: white;
+}
+.home {
+  color: hsl(207, 85%, 60%);
+}
+div {
+  display: inline;
+}
+div img {
+   width:625px;
+   height:625px;
+}
