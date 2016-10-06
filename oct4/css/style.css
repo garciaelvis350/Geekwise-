@@ -1,0 +1,17 @@
+img {
+  float:left;
+  margin-right: 1.75em;
+  width:50vw;
+  height: 100vh;
+
+}
+h1 {
+  font-size: 3vw;
+  margin: 0;
+  text-align: center;
+}
+p {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
