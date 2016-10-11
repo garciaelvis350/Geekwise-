@@ -1,0 +1,182 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+body {
+  margin: 0;
+  font-family: 'Roboto',sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/home-slider-1-slide-2.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  color: white;
+
+}
+nav {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+  display: inline-flex;
+  list-style:  none;
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+nav ul ul {
+  display: none;
+  background-color: hsla(0, 0%, 0%, 0.8);
+  position: absolute;
+  top:100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+}
+nav ul ul a{
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+nav > ul > li::after {
+  content: '/';
+  display: inline-block;
+  margin: 0 10px;
+}
+nav > ul > li:hover ul {
+display:block;
+}
+nav > ul > li {
+  position: relative;
+}
+nav ul ul a {
+  padding: 20px 40px;
+}
+nav li:last-child::after {
+  content: none;
+}
+nav h1 {
+background-repeat: no-repeat;
+  background-image: url(../img/logo-229x39.png);
+}nav h1 a {
+  width: 229px;
+  height: 39px;
+  color: transparent;
+  display: block;
+}
+/*
+   CAR TITLE
+   */
+header h2 {
+  margin: auto;
+  font-size: 15vw;
+}
+/*
+SECTION GALLERY
+*/
+#gallery {
+  display:flex;
+  flex-wrap: wrap;
+}
+#gallery > div {
+  width:calc(100% / 4);
+  height:28vw;
+  overflow: hidden;
+  position: relative;
+}
+#gallery > div > img {
+  width: 100%;
+  transform: scale(1.25);
+}
+#gallery > div:hover div {
+  display: flex;
+  border-radius: 0;
+  opacity: 1;
+    transform: scale(1);
+
+}
+
+#gallery div div {
+  transition: all 250ms ease-in-out;
+  border-radius: 100%;
+  opacity: 0;
+  transform: scale(.75);
+  position: absolute;
+  top: 0;
+  right:0;
+  bottom:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: hsla(198, 100%, 58%, 0.8);
+}
+div.parent{
+  display: flex;
+  justify-content: space-around;
+}
+div.parent div{
+  width: 23%;
+}
+section div div a {
+  text-decoration: none;
+  color:black;
+}
+section div div p{
+  width: 84%;
+}
+section#car-news div.parent {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+section#car-news hr {
+  width: 80%;
+}
+section#models {
+  background-image: url(../img/bg-image-1.jpg);
+  padding: 15vw 5vw 15vw 50%;
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  text-transform: uppercase;
+}
+h2 + hr {
+  width: 12vw;
+  border:3px solid #29C0FF;
+}
+hr {
+  margin: 0;
+  border:none;
+  height: 1px;
+  background-color: hsla(0, 0%, 0%, 95%);
+
+}
+section#models ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+section#models p {
+  display: flex;
+  justify-content: space-between;
+}
+
+progress {
+  width:100%auto;
+  border: none;
+}
+progress::-moz-progress-bar{background-color: #29C0FF;}
+}
+section#models a {
+  color:#29C0FF;
+  text-decoration: none;
+  transition: all 250ms ease-in-out;
+}
