@@ -25,7 +25,7 @@ form div {
   border: none;
   margin-bottom: 10px;
 }
-form div:nth-first-child legend {
+form div:first-child legend {
   flex: 1;
   margin-right: 20px;
   display: flex;
@@ -36,9 +36,9 @@ form div:first-child legend:last-child {
 }
 form legend span {
   position: relative;
-  top: 28px;
-  left:2px;
+  top: 25px;
   transition: all 250ms ease-in-out;
+  align-self: flex-start;
 }
 form legend span.placeholder {
   top:0px;
