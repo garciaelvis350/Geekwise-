@@ -111,14 +111,15 @@ header p {
   margin: auto;
   font-size: 2vw;
 }
-  #hello > div:hover div {
-    color: white;
-    background-color: hsl(0, 0%, 9%);
-  }
-  #hello a > div > span{
-    border: 1px solid #27B8D1;
-    background-color: white;
-    transition: all 400ms ease-in-out;
+#hello > div:hover div {
+  color: white;
+  background-color: #27B8D1;
+}
+#hello div div {
+  border: 1px solid #27B8D1;
+  background-color: white;
+  color: #27B8D1;
+  transition: all 400ms ease-in-out;
 }
 #hello {
   display: flex;
@@ -234,6 +235,26 @@ margin: 0 0 50px;
         background-color: hsl(0, 0%, 9%);
       }
     }
-    section#items {
-      background-color: #27B8D1;
-    }
+  #items {
+    background-color: #27B8D1;
+    color:white;
+    display: flex;
+    padding: 18vw 5vw;
+  }
+#items div {
+  margin-right: 2vw;
+  padding:25px;
+  background-color: hsla(360, 50%, 50%, 0.5);
+  flex: none;
+  width:calc(100%)
+}
+@media screen and (max-width: 768px){
+  #items div, #items div:last-child {
+    width: calc(100% / 2 - 2vw);
+    margin-right: 2vw;}
+    @media screen and (max-width: 550px){
+      #items div, #items div:last-child {
+        width: calc(100% / 2 - 2vw);
+        margin-right: 2vw;
+  }
+}
