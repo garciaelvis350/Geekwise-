@@ -21,6 +21,8 @@
 body {
   background-color: #510000;
   font-family: 'Fraktur';
+  margin-left:15vw;
+  margin-right:15vw;
 }
 h1#name {
   color:#BA9500;
@@ -32,8 +34,13 @@ header {
 header h1 {
   margin:0;
 }
+header img {
+}
 h1#name {
   font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 hr {
   background-color:#FFFFF0;
@@ -47,5 +54,44 @@ display: flex;
 justify-content: center;
 }
 aside {
-
+display:flex;
+border:2px solid black;
+border-radius: 10%;
 }
+section ,nav {
+    background-color: #FFFFF0;
+}
+
+section  {
+  display: flex;
+}
+section p {
+    font-family: sans-serif;
+}
+ h1{
+      color: #660000;
+}
+section h1 {
+  color:#D2A800;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  }
+
+  li a {
+    color: #660000;
+    padding: 5px;
+    font-size: 2vw;
+    font-family: 'BrushScript';
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid black;
+    border-style: dotted;
+  }
