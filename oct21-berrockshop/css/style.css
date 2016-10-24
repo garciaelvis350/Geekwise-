@@ -1,0 +1,177 @@
+@font-face {
+  font-family: 'BrushScript';
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot');
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.svg#eb21f6604ba28d5573abad1c01255830') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+@font-face {
+  font-family: 'Fraktur';
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot');
+  src: url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/Fraktur-BT-Regular.svg#f78369fb7f540f355d128fc492e4218d') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+body {
+  background-color: #510000;
+  font-family: 'BrushScript';
+  margin-left:15vw;
+  margin-right:15vw;
+}
+h1#name {
+  color:#BA9500;
+  background-color: #FFFFF0;
+}
+header {
+  display: flex;
+}
+header h1 {
+  margin:0;
+  width:213;
+  height: 153;
+}
+header img {
+  width:592px;
+  height: 153px;
+}
+h1#name {
+  font-size: 4vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Fraktur';
+}
+main ,p ,h1 ,section{
+  margin: 0;
+  display: block;
+}
+.a {
+  height: 100px;
+}
+
+hr {
+  background-color:#FFFFF0;
+  margin: 0;
+  height: 4px;
+  width: 834px;
+  border: 2px solid #660000;
+}
+.ab {
+  font-size: 2vw;
+  color: white;
+  text-shadow: 4px 4px 4px  #660000;
+}
+header  {
+margin: 0;
+display: flex;
+justify-content: center;
+}
+aside {
+display:flex;
+border:2px solid black;
+border-radius: 10%;
+height: 150px;
+width: 400px;
+margin-right: 20px;
+
+}
+#berrock2 {
+    shape-outside: circle(50%);
+    width: 149px;
+    height: 105px;
+    float: left;
+}
+#berrock{
+shape-outside: circle(50%);
+width: 220px;
+height: 180px;
+float: left;
+}
+main {
+    background-color: #FFFFF0;
+}
+section.hello {
+  height: 100px;
+}
+.al {
+height:125px;
+}
+p.bye {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+p {
+  font-size: 1vw;
+}
+p.class {
+  width:75%;
+  margin: 0;
+  height: 120px;
+}
+.class p img {
+  width: 25%;
+}
+aside p {
+  text-align: center;
+}
+.price-label {
+  width:770px;
+  height: 130px;
+}
+.price-label2 {
+  width:550px;
+}
+#img {
+  float: right;
+}
+img {
+  width:210px;
+  height: 162px;
+}
+
+section  {
+  display: flex;
+  margin-left: 60px;
+}
+section p {
+    font-family: sans-serif;
+}
+ h1.hi{
+      color:white;
+      margin-left: 60px;
+      text-shadow: 4px  4px 4px #660000;
+}
+section h1 {
+  color:#D2A800;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style: none;
+  margin: 0;
+  }
+
+  li a {
+    color: #660000;
+    padding: 5px;
+    font-size: 2vw;
+    font-family: 'BrushScript';
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid black;
+    border-style: dotted;
+  }
+  main img {
+    margin-right: 20px;
+  }
