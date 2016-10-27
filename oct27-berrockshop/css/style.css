@@ -1,3 +1,4 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 @font-face {
   font-family: 'Brush Script Std';
   src: url('../fonts/BrushScriptStd.eot'); /* IE9 Compat Modes */
@@ -48,7 +49,7 @@ header {
     display: flex;
     border: 4px solid black;
 }
-h1 {
+body > header >h1 {
     font-family: 'Fraktur BT', cursive;
     line-height: .85;
     font-size: 46px;
@@ -199,5 +200,122 @@ aside div table {
     margin-top: 32px;
 }
 #menu .fb div:nth-of-type(3n+1){
-    width: calc(100% - 50px);
+    width: 100%;
 }
+article {
+  border-bottom: 1px solid hsl(0, 100%, 16%);
+}
+section#news{float: none;
+  width: 100%;
+  padding: 65px;
+}
+article time {
+  font-weight: bold;
+}
+article header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grad {
+  margin: 0 25px;
+  padding: 5px 0 10px;
+  display: flex;
+  align-items: center;
+  background-color:pink;
+  background-image: linear-gradient(to right, hsl(60, 100%, 97%), hsla(0, 100%, 16%, 0.5 ));
+   border-width: 0 0 1px;
+  border-style: dashed;
+   border-color:hsl(60, 70%, 70%);
+  );
+}
+.grad h2 {
+  margin:0;
+  line-height: 1.75;
+  margin-left: auto;
+}
+.ab {
+  border: none;
+}
+header.ab h2 {
+  font-family: sans-serif;
+  text-shadow: none;
+  color: black;
+  font-size: 1vw;
+}
+#contact section {
+  padding: 0 0 25px;
+  width: 100%;
+  text-align: center;
+}
+form {
+  display: inline-flex;
+  flex-direction: column;
+}
+form label {
+  display: flex;
+  text-align: left;
+  margin-bottom: 5px;
+
+}
+form label span {
+  width:75px;
+  text-align: right;
+  padding-right: 5px;
+}
+form input[type="submit"] {
+  align-self: flex-start;
+  margin-left: 78px;
+  padding-right: 5px;
+}
+i.fa, .grad{
+  font-size: 20px;
+  color: white;
+  text-shadow:
+      1px 1px .25px hsl(0, 100%, 16%),
+      1px 1px 8px hsl(0, 100%, 16%),
+      -1px 1px .25px hsl(0, 100%, 16%),
+      -1px 1px 8px hsl(0, 100%, 16%),
+      1px -1px .25px hsl(0, 100%, 16%),
+      1px -1px 8px hsl(0, 100%, 16%),
+      -1px -1px .25px hsl(0, 100%, 16%),
+      -1px -1px 8px hsl(0, 100%, 16%);
+}
+#contact .grad {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hi
