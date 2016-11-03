@@ -183,7 +183,6 @@ a {
   color: white;
 
 }
-/*nav ul li {*/
-  width: 100px;
-  height: 100px;
+div.hi {
+  margin-left: 500px;
 }

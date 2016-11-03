@@ -1,0 +1,13 @@
+html {
+  background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-color: black;
+}
+body {
+  color:white;
+}
+.container{
+  width:800px;
+  margin:0 auto;
+}
