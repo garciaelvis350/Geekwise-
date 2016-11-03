@@ -11,3 +11,57 @@ body {
   width:800px;
   margin:0 auto;
 }
+section {
+  width:64%;
+  float: left;
+  background-image: url(../img/leftbg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+aside {
+  width:34%;
+  float: right;
+  background-image: url(../img/rightbg.png);
+  background-position: left top;
+    background-repeat: no-repeat;
+}
+    #mega {
+      background-color: hsl(9, 83%, 9%);
+      display: flex;
+    }
+    main::after {
+      content:'';
+      display:block;
+      clear: both;
+}
+.container img:nth-of-type(2) {
+  position: relative; top: -31.2px;; left: 81px;
+}
+.container img:nth-last-of-type(3) {
+  position: absolute; top: 30px; left: 70px
+}
+@media screen and (max-width: 799px) {
+    nav img{
+        display: none;
+    }
+    #body{
+        display: block;
+        width: 100%;
+    }
+    .container{
+        text-align: center;
+        width: 100%;
+    }
+    @media screen and (max-width: 450px) {
+        nav img{
+            display: none;
+        }
+        #body{
+            display: block;
+            width: 100%;
+        }
+        .container{
+            text-align: center;
+            width: 100%;
+        }
+}
