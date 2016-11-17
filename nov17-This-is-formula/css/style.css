@@ -1,10 +1,11 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 .sidenav {
    height: 100%;
    width: 0;
    position: fixed;
    z-index: 1;
-   top: 0;
-   left: 0;
+   top: -13px;
+   right:0px;
    background-color: #ffffff;
    overflow-x: hidden;
    padding-top: 60px;
@@ -30,11 +31,11 @@
    font-size: 36px;
    margin-left: 50px;
 }
-
-#main {
-   transition: margin-right .5s;
-   padding: 20px;
+span {
+float:right;
+margin-top:0;
 }
+
 @media screen and (max-height: 450px) {
    .sidenav {padding-top: 15px;}
    .sidenav a {font-size: 18px;}
