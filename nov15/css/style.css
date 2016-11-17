@@ -1,0 +1,131 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+header {
+  color: white;
+  margin: 0;
+  background-image: url(../img/banner.jpg);
+  height: 500px;
+  width: 100%;
+  padding: 10px;
+}
+a {
+  color: #4dac71;
+  text-decoration: underline;
+}
+header h3 {
+  display: flex;
+  align-items: flex-start;
+  align-content: space-around;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  color: white;
+
+}
+ul li{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  order: 1;
+}
+div.hello {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h3.chao {
+  text-align: center;
+}
+button.ab {
+  color: white;
+  border-color: hsl(0, 0%, 100%);
+  background-color: transparent;
+  padding: 17px;
+  width: 17%;
+  font-size: 20px;
+  border: 1px white solid;
+}
+section.bye {
+    background-image: linear-gradient( to left, #4DAC71, #3BA666);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 10px 10px;
+  justify-content: space-around;
+}
+section.bye::before {
+  content: "";
+  position: absolute;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
+}
+section.bye::after {
+  content: "";
+  position: relative;
+  transform: rotate(1);
+  width: 50%;
+  height: auto;
+}
+.info {
+  text-align: center;
+  flex-direction: column;
+}
+p.choa {
+  padding: 25px;
+  width: 75%;
+}
+div.icons{
+  display: flex;
+  justify-content: space-around;;
+  text-align: center;
+  margin: 0;
+}
+.fa {
+  font-size: 90px;
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 20px;
+  color: white;
+}
+section.bc {
+  margin: 0;
+}
+div.bd {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+hr.dc {
+  width: 86.5%;
+  padding: 1px;
+}
+div.de {
+  display: flex;
+  padding: 0 100px;
+}
+div.dd {
+     display: flex;
+     flex-direction: column;
+     width: 50%;
+     padding: 5px;
+}
+div.bye-it-is {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+}
+button.hi {
+align-content: center;
+}
+#footer {
+  background-color: #202222;
+color: #888;
+}
