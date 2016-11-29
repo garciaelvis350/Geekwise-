@@ -196,6 +196,12 @@ header ul {  list-style: none;
   /*margin: auto;*/
 }
 
+@media (max-width: 600px) {
+  body {
+    display: none;
+  }
+}
+
 h3 {
   color: #777777;
   font-size: 28px;
